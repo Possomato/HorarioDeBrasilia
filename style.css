@@ -11,6 +11,12 @@ p{
     font-weight: 400;
     color: #7A7A7A;
     text-align: center;
+
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
 }
 
 body{
@@ -20,7 +26,7 @@ body{
     flex-direction: column;
     align-items: center;
 
-    margin: 40px 40px;
+    margin: 30px 30px;
 }
 
 main{
@@ -32,7 +38,7 @@ main{
     flex-direction: column;
     align-items: center;
 
-    border-radius: 10px;
+    border-radius: 2px;
     border: solid gray 1px;
 }
 
@@ -53,7 +59,7 @@ header h1{
     margin: 20px 0px;
 
     font-weight: 700;
-    font-size: 1.5em;
+    font-size: 4vw;
 }
 
 article{
@@ -73,7 +79,7 @@ section{
 }
 
 #psection{
-    padding: 20px 0px 50px;
+    padding: 30px 0px;
     width: 100%;
 }
 
@@ -110,7 +116,6 @@ footer{
     border-top: solid gray 1px;
 
     width: 90%;
-    height: 10vh;
 
     padding: 20px 0px;
 
@@ -121,15 +126,19 @@ footer{
 }
 
 footer p{
-    max-width: 800px;
+    max-width: 590px;
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 900px) {
+    header h1{
+        font-size: 1.5em;
+    }
+
     section h2{
-        font-size: 3em;
+        font-size: 2em;
     }
 
     #horario{
-        font-size: 12em;
+        font-size: 10em;
     }
 }
