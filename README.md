@@ -22,4 +22,4 @@ Este projeto está licenciado sob a MIT License.
 Agradecemos ao Horário de Brasília por fornecer a inspiração para este projeto.
 
 ### Contato
-Se tiver alguma dúvida ou sugestão sobre este projeto, entre em contato com [seu nome] por [e-mail] ou através do [seu website].
+Se tiver alguma dúvida ou sugestão sobre este projeto, <a href="https://possomato.github.io/portfolio/" target="_blank">entre em contato comigo</a>.
